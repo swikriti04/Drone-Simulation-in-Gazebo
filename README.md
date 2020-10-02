@@ -56,4 +56,4 @@ This method features searching for multiple trajectories in distinctive topologi
   roslaunch plan_manage topo_replan.launch
 then you will find the random map generated and can use the 2D Nav Goal to trigger the planner:
 
-
+![Glance of result](icra20_3 (1).gif)
