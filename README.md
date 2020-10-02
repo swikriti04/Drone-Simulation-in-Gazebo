@@ -45,3 +45,5 @@ In this method, a kinodynamic path searching finds a safe, dynamically feasible,
   source devel/setup.bash
   roslaunch plan_manage kino_replan.launch
 Normally, you will find the randomly generated map and the drone model in Rviz. At this time, you can trigger the planner using the 2D Nav Goal tool. When a point is clicked in Rviz, a new trajectory will be generated immediately and executed by the drone. A sample is displayed below:
+
+![Glance of result](Drone-Simulation-in-Gazebo/ral19_3.gif)
