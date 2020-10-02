@@ -47,3 +47,13 @@ In this method, a kinodynamic path searching finds a safe, dynamically feasible,
 Normally, you will find the randomly generated map and the drone model in Rviz. At this time, you can trigger the planner using the 2D Nav Goal tool. When a point is clicked in Rviz, a new trajectory will be generated immediately and executed by the drone. A sample is displayed below:
 
 ![Glance of result](ral19_3.gif)
+
+Topological Path Searching & Path-guided Optimization
+This method features searching for multiple trajectories in distinctive topological classes. Thanks to the strategy, the solution space is explored more thoroughly, avoiding local minima and yielding better solutions. Similarly, run:
+
+  <!-- open a new terminal, go to your workspace and run: -->
+  source devel/setup.bash
+  roslaunch plan_manage topo_replan.launch
+then you will find the random map generated and can use the 2D Nav Goal to trigger the planner:
+
+
